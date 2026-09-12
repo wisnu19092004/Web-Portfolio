@@ -135,7 +135,7 @@ export function renderProjects(filterCategory = 'all') {
               class="flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white dark:bg-cyan-500 dark:hover:bg-cyan-400 dark:text-slate-950 transition-colors ml-auto shadow-sm"
             >
               <i data-lucide="external-link" class="w-4 h-4"></i>
-              Live Demo
+              Link Project
             </a>
           ` : `
             <span class="flex items-center gap-1.5 text-xs font-medium px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-800/80 text-slate-400 dark:text-slate-500 border border-slate-200/50 dark:border-slate-800 ml-auto cursor-default" title="Link demo segera hadir">

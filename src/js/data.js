@@ -126,7 +126,7 @@ export const skillsData = [
     name: 'Laravel',
     category: 'web-backend',
     categoryLabel: 'Web & Backend',
-    level: 2,
+    level: 1,
     description: 'Routing, Eloquent ORM, Blade templating, authentication, and API development.',
     icon: 'layers',
     color: 'from-red-500 to-rose-600'
@@ -138,7 +138,7 @@ export const skillsData = [
     name: 'Figma',
     category: 'design-3d',
     categoryLabel: 'Design & Visual',
-    level: 4,
+    level: 3,
     description: 'UI/UX interface design, wireframing, high-fidelity prototypes, and design systems.',
     icon: 'figma',
     color: 'from-purple-400 to-pink-500'
@@ -233,62 +233,41 @@ export const projectsData = [
         title: 'Pengaturan Multi-Bahasa (ID, EN, JA, MS)'
       }
     ],
-    demoUrl: null,
-    githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
-  },
-  {
-    id: 'flutter-ecommerce',
-    title: 'Cross-Platform Mobile Store App',
-    category: 'mobile',
-    tags: ['Flutter', 'Dart', 'Figma'],
-    description: 'A responsive mobile e-commerce application featuring smooth transitions, state management, and an intuitive UI prototype designed in Figma.',
-    imagePlaceholderText: 'Flutter Mobile App',
-    badgeColor: 'bg-cyan-500/10 text-cyan-500 border-cyan-500/30',
-    demoUrl: '#',
-    githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
-  },
-  {
-    id: 'unity-adventure-game',
-    title: '2D Action Adventure Platformer',
-    category: 'game',
-    tags: ['Unity', 'C#', 'Krita'],
-    description: 'A 2D platformer game built with custom physics, enemy AI, and original sprite artwork illustrated with Krita.',
-    imagePlaceholderText: 'Unity 2D Game Project',
-    badgeColor: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30',
-    demoUrl: '#',
-    githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
-  },
-  {
-    id: 'codeigniter-inventory-system',
-    title: 'Enterprise Inventory Management',
-    category: 'web',
-    tags: ['CodeIgniter', 'SQL', 'Bootstrap/CSS'],
-    description: 'A full-fledged inventory tracking web portal with role-based access control, relational database management, and PDF report export.',
-    imagePlaceholderText: 'CodeIgniter Web System',
-    badgeColor: 'bg-orange-500/10 text-orange-400 border-orange-500/30',
-    demoUrl: '#',
-    githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
-  },
-  {
-    id: 'laravel-rest-api',
-    title: 'Modern RESTful API Service',
-    category: 'web',
-    tags: ['Laravel', 'SQL', 'JavaScript'],
-    description: 'Robust backend API with token authentication, query filtering, and high security for client integration.',
-    imagePlaceholderText: 'Laravel API Backend',
-    badgeColor: 'bg-red-500/10 text-red-400 border-red-500/30',
-    demoUrl: '#',
-    githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
+    demoUrl: 'https://github.com/wisnu19092004/Dual-Clash/releases/tag/Dual_Clash',
+    githubUrl: 'https://github.com/wisnu19092004/Dual-Clash'
   },
   {
     id: 'figma-design-system',
-    title: 'E-Learning Platform UI/UX Design',
+    title: 'Learnify — E-Learning Platform UI/UX Design',
     category: 'design',
-    tags: ['Figma', 'UI/UX', 'Prototyping'],
-    description: 'Comprehensive UI design kit and interactive prototype for an online learning management system.',
+    tags: ['Figma', 'UI/UX', 'Prototyping', 'Design System', 'Responsive'],
+    description: 'Desain UI/UX lengkap untuk platform e-learning "Learnify" — mencakup Landing Page, Katalog Kursus, Halaman Detail Kursus dengan Kurikulum & Instruktur, Dashboard Siswa dengan Progress Tracking & Statistik, serta Halaman Login dengan Social Auth. Dibangun dengan design system yang konsisten dan interactive prototype di Figma.',
     imagePlaceholderText: 'Figma UI/UX Showcase',
     badgeColor: 'bg-pink-500/10 text-pink-400 border-pink-500/30',
-    demoUrl: '#',
+    coverImage: '/Gambar/Figma/Screenshot 2026-09-12 195858.png',
+    screenshots: [
+      {
+        url: '/Gambar/Figma/Screenshot 2026-09-12 195858.png',
+        title: 'Landing Page — Hero Section "Transform Your Learning Journey"'
+      },
+      {
+        url: '/Gambar/Figma/Screenshot 2026-09-12 195909.png',
+        title: 'Katalog Kursus — Browse & Filter Kursus Populer'
+      },
+      {
+        url: '/Gambar/Figma/Screenshot 2026-09-12 195923.png',
+        title: 'Detail Kursus — Kurikulum, Instruktur & Enrollment'
+      },
+      {
+        url: '/Gambar/Figma/Screenshot 2026-09-12 195936.png',
+        title: 'Dashboard Siswa — Progress Tracking & Statistik Belajar'
+      },
+      {
+        url: '/Gambar/Figma/Screenshot 2026-09-12 195949.png',
+        title: 'Halaman Login — Sign In dengan Social Authentication'
+      }
+    ],
+    demoUrl: 'https://www.figma.com/design/o5om0dAAd5LuUZKXdwkyaL/Untitled?node-id=1-2&t=AaGi67Ny2H7J9RzB-1',
     githubUrl: 'https://github.com/wisnu19092004?tab=repositories'
   }
 ];
